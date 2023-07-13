@@ -1,4 +1,3 @@
-import {Router, Routes, Route} from "react-router-dom"
 import {useSelector, useDispatch} from 'react-redux'
 import {remove} from '../store/cartSlice'
 import Button from 'react-bootstrap/Button';

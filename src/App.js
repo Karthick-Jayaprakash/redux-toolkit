@@ -5,8 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Header from './components/Header.js'
 import Dashboard from './components/Dashboard.js'
 import Cart from './components/Cart.js'
-import {Router, Routes, Route} from "react-router-dom"
-import store from './store/Store.js'
+import { Routes, Route} from "react-router-dom"
 import {useDispatch} from 'react-redux'
 import {add} from './store/cartSlice'
 function App() {
